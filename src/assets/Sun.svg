@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="40"
+  height="40"
+  fill="currentColor"
+>
+  <g>
+    <!-- Буква C как Луна -->
+    <text x="12" y="32" fontSize="30" fontFamily="Arial" fill="#f4d03f">C</text>
+    
+    <!-- Сова внутри Луны -->
+    <circle cx="22" cy="22" r="4" fill="#5d4037" />
+    <circle cx="26" cy="22" r="4" fill="#5d4037" />
+    <path
+      d="M24 26c-4.418 0-8 3.582-8 8s8 3 8 8 8-3 8-8-3.582-8-8-8z"
+      fill="#5d4037"
+    />
+  </g>
+</svg>

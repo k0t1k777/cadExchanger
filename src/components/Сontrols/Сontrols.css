@@ -1,0 +1,81 @@
+.form {
+  width: 500px;
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ant-row {
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+  gap: 15px; 
+}
+
+.ant-form-item-label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ant-form-item-required {
+  color: white !important;
+  width: 80px;
+}
+
+.ant-input-number {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.ant-input-number:focus {
+  border-color: #4d90fe;
+  box-shadow: 0 0 5px rgba(77, 144, 254, 0.5);
+}
+
+.ant-form-item-with-error .ant-input-number {
+  border-color: #f5222d;
+  box-shadow: 0 0 5px rgba(245, 34, 45, 0.5);
+}
+
+.ant-btn-primary {
+  background-color: #4d90fe;
+  border-color: #4d90fe;
+  color: #fff;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ant-btn-primary:hover {
+  background-color: #357ae8;
+  border-color: #357ae8;
+}
+
+.ant-btn-primary:active {
+  background-color: #1e5bc8;
+  border-color: #1e5bc8;
+}
+
+.ant-form-item-explain {
+  color: #f5222d;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.ant-form-item:last-child {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

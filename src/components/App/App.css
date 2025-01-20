@@ -1,0 +1,67 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.layout {
+  display: flex;
+  background: #012a4b;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.layout.dark-mode {
+  background-color: #222;
+}
+
+.canvas {
+  height: 100vh;
+  width: 100%;
+}
+
+.controls {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.controls.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.controls button {
+  background-color: #61557F;
+  border: none;
+  color: white;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #357ae8;
+}
+
+.controls button:active {
+  background-color: #1e5bc8;
+}
