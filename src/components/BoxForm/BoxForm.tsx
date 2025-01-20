@@ -34,7 +34,10 @@ const BoxForm: React.FC<BoxFormProps> = ({
   };
 
   return (
-    <div className='form' style={{ backgroundColor: darkMode ? '#010B12' : '#222'}}>
+    <div
+      className='form'
+      style={{ backgroundColor: darkMode ? '#010B12' : '#222' }}
+    >
       <Form form={form} layout='vertical'>
         {fields.map(({ label, name, min }) => (
           <Form.Item
