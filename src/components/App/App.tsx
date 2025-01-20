@@ -35,10 +35,11 @@ const App: React.FC = () => {
         params.height !== boxParams.height
       ) {
         try {
-          const response = await axios.post(
-            'http://....glitch.me/compute-box',
-            params
-          );
+          const response = await axios.post('http://localhost:5000/compute-box', params);
+          // const response = await axios.post(
+          //   'http://....glitch.me/compute-box',
+          //   params
+          // );
           setBoxParams({
             length: params.length,
             width: params.width,
