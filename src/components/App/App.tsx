@@ -35,11 +35,14 @@ const App: React.FC = () => {
         params.height !== boxParams.height
       ) {
         try {
-          const response = await axios.post('http://localhost:5000/compute-box', params);
-          // const response = await axios.post(
-          //   'http://....glitch.me/compute-box',
-          //   params
-          // );
+          // для локальной разработки
+          // const response = await axios.post('http://localhost:5000/compute-box', params);
+
+          //для glitch
+          const response = await axios.post(
+            'https://twilight-rustic-cormorant.glitch.me/compute-box',
+            params
+          );
           setBoxParams({
             length: params.length,
             width: params.width,
@@ -76,7 +79,10 @@ const App: React.FC = () => {
 
   return (
     <Layout className={darkMode ? 'dark-mode' : ''}>
-      <Layout.Content className='layout' style={{ backgroundColor: darkMode ? '#011627' : '#333' }}>
+      <Layout.Content
+        className='layout'
+        style={{ backgroundColor: darkMode ? '#011627' : '#333' }}
+      >
         <BoxForm
           onSubmit={handleFormSubmit}
           darkMode={darkMode}
