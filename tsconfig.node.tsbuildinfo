@@ -1,0 +1,1 @@
+{"root":["./vite.config.ts","./src/components/main.tsx","./src/components/app/app.tsx","./src/components/box3d/box3d.tsx","./src/components/boxform/boxform.tsx","./src/components/сontrols/сontrols.tsx","./src/shared/icon/icon.tsx","./src/types/vite-env.d.ts"],"errors":true,"version":"5.6.3"}
