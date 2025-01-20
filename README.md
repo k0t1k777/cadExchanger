@@ -1,5 +1,7 @@
 # Тестовое задание на позицию Web-разработчика
 
+Стек React + TS
+
 ## The Task.
 
 Create a simple client-server web app that includes a 3D box in a Three.js scene and a
@@ -43,4 +45,4 @@ server.
 
   ## Скриншот
 
-  ![alt text](./client//src/assets/screen.JPG)
+  ![alt text](./src/assets/screen.JPG)
