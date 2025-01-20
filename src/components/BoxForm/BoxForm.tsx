@@ -1,5 +1,5 @@
 import React from 'react';
-import './BoxForm.css';
+import './BoxForm.scss';
 import { Form, InputNumber, Button, Space, Switch } from 'antd';
 import { Icon } from '../../shared/Icon/Icon';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Icon.css';
+import './Icon.scss';
 import Icons from './icons/sprite.svg';
 
 interface IconProps {

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import React, { useRef, useState, useCallback } from 'react';
 import Box3D from '../Box3D/Box3D';
 import BoxForm from '../BoxForm/BoxForm';
@@ -35,10 +35,6 @@ const App: React.FC = () => {
         params.height !== boxParams.height
       ) {
         try {
-          // для локальной разработки
-          // const response = await axios.post('http://localhost:5000/compute-box', params);
-
-          //для glitch
           const response = await axios.post(
             'https://twilight-rustic-cormorant.glitch.me/compute-box',
             params
