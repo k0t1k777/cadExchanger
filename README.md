@@ -1,6 +1,6 @@
 # Тестовое задание на позицию Web-разработчика
 
-Стек React + TS
+### React + TS
 
 ## The Task.
 
@@ -46,3 +46,4 @@ server.
   ## Скриншот
 
   ![alt text](./src/assets/screen.JPG)
+  ![alt text](./src/assets/screen2.JPG)
