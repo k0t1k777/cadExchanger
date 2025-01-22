@@ -1,6 +1,6 @@
 # Тестовое задание на позицию Web-разработчика
 
-### React + TS
+### React + TS + SCSS
 
 ## The Task.
 
